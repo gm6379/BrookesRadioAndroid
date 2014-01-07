@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F98D1F" >
+    
+	<TextView android:id="@+id/introduction_text"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/description_text"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+    
+    <Button android:id="@+id/view_schedule_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/introduction_text"
+		android:textColor="#4FB4FF"
+		android:textStyle="bold"
+		android:layout_marginTop="5dp"
+		android:text="@string/view_schedule"
+    	android:textSize="16sp"/>
+        
+    <TextView android:id="@+id/get_involved_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/view_schedule_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/contact_text"
+    	android:textSize="16sp"
+    	android:textColor="#FFFFFF"/>
+     
+    <Button android:id="@+id/get_involved_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/get_involved_text"
+        android:textColor="#4FB4FF"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="@string/get_involved"
+        android:textSize="16sp"/>
+    	
+
+</RelativeLayout>

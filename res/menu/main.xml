@@ -1,9 +1,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:id="@+id/action_email_studio"
+        android:orderInCategory="1"
+        android:title="@string/action_emailstudio"/>
+    <item
+        android:id="@+id/action_facebook_page"
+        android:orderInCategory="2"
+        android:title="@string/action_facebookpage"/>
+    <item
+        android:id="@+id/action_twitter_page"
+        android:orderInCategory="3"
+        android:title="@string/action_twitterpage"/>
+    <item
+        android:id="@+id/action_facebook_share"
+        android:orderInCategory="4"
+        android:title="@string/action_facebookshare"/>
+    <item
+        android:id="@+id/action_twitter_share"
+        android:orderInCategory="4"
+        android:title="@string/action_twittershare"/>
 
 </menu>
